@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.brokenradio" name="Greek radio plugin" version="0.0.1" provider-name="iamninja">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Summary</summary>
+        <license>Licence</license>
+        <description lang="en">Radio plugin</description>
+        <platform>all</platform>
+    </extension>
+</addon>
